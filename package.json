@@ -1,0 +1,44 @@
+{
+  "name": "angular2-whatafuck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=development webpack -d --progress",
+    "start": "webpack-dev-server  --progress --colors --port 3100 --inline",
+    "lite": "lite-server",
+    "postinstall": "typings install",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "typings": "typings"
+  },
+  "author": "",
+  "dependencies": {
+    "@angular/common":  "2.0.0-rc.3",
+    "@angular/compiler":  "2.0.0-rc.3",
+    "@angular/core":  "2.0.0-rc.3",
+    "@angular/forms": "0.1.1",
+    "@angular/http":  "2.0.0-rc.3",
+    "@angular/platform-browser":  "2.0.0-rc.3",
+    "@angular/platform-browser-dynamic":  "2.0.0-rc.3",
+    "@angular/router":  "3.0.0-alpha.7",
+    "@angular/router-deprecated":  "2.0.0-rc.2",
+    "@angular/upgrade":  "2.0.0-rc.3",
+    "angular2-in-memory-web-api": "0.0.12",
+    "angular2-moment": "^0.8.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.9",
+    "zone.js": "^0.6.12"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browser-sync-webpack-plugin": "^1.0.3",
+    "html-loader": "^0.4.3",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.0",
+    "webpack": "^1.13.1"
+  }
+}
